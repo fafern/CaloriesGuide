@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Care Calories</string>
+    <string name="home">HOME</string>
+    <string name="back">BACK</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="res1">restaurant 1</string>
+    <string name="res2">restaurant 2</string>
+    <string name="res3">restaurant 3</string>
+    <string name="res4">restaurant 4</string>
+    <string name="res5">restaurant 5</string>
+    <string name="res6">restaurant 6</string>
+    <string name="other1">Other</string>
+    <string name="Cal">CALORISE</string>
+    <string name="His">HISTORY</string>
+    <string name="Pro">PROFILE</string>
+    <string name="Exe">EXERCISE</string>
+</resources>
