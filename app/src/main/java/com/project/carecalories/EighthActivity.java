@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 
 public class EighthActivity extends Activity {
@@ -18,7 +19,7 @@ public class EighthActivity extends Activity {
         setContentView(R.layout.activity_eighth);
 
         TextView currentDate = (TextView) findViewById(R.id.textView26);
-        currentDate.setText( new SimpleDateFormat("dd-MM-yyyy").format(new Date()) );
+        currentDate.setText( new SimpleDateFormat("dd-MM-yyyy", Locale.US).format(new Date()) );
 
         Button buttonBack = (Button) findViewById(R.id.button23);
         buttonBack.setOnClickListener(new View.OnClickListener() {
